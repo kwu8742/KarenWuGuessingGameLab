@@ -1,8 +1,8 @@
-package KarenWu;
+//package KarenWu;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-public class Guesser {
+//public class Guesser {
 
-    }
-}
+    //}
+//}
