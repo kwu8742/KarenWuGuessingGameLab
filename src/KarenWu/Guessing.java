@@ -8,7 +8,7 @@ public class Guessing {
         Scanner input = new Scanner(System.in);
         int num = (int)(1 + Math.random() * 10);
         System.out.print("What is your name?");
-        String name = input.nextline();
+        String name = input.nextLine();
         System.out.println("Guess the number " + name ".");
         int score = 0;
         int guess;
