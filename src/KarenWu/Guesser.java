@@ -9,13 +9,13 @@ public class Guesser {
     int guess = 0;
     int guessnum = 50;
     System.out.print("What is your name?");
-    String name = input.nextline();
+    String name = input.nextLine();
     System.out.println("Input number to be Guessed between 1-100.");
     int num = input.nextInt();
     while(guessnum != num) {
         System.out.println("Is your number" + guessnum + name + "?");
         System.out.println("Is it higher or lower " + name "?");
-        String updown = input.nextline();
+        String updown = input.nextLine();
         if(updown == "higher") {
             guessnum = guessnum + guessnum/2;
         }
