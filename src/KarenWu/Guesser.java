@@ -13,7 +13,7 @@ public class Guesser {
     while(guessnum != num) {
         System.out.println("Is your number" + guessnum +"?");
         System.out.println("Is it higher or lower?");
-        String updown = input.nextString();
+        String updown = input.nextline();
         if(updown == "higher") {
             guessnum = guessnum + guessnum/2;
         }
